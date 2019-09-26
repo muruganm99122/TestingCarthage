@@ -20,6 +20,14 @@ class ViewController: UIViewController {
                 textField.title = "Your full name"
                 self.view.addSubview(textField)
                 print("added this line for test")
+                let textField2 = SkyFloatingLabelTextField(frame: CGRect(x: 50, y: 275, width: 200, height: 50))
+                textField2.placeholder = "City"
+                textField2.title = "Your city name"
+                self.view.addSubview(textField2)
+                let textField3 = SkyFloatingLabelTextField(frame: CGRect(x: 50, y: 300, width: 200, height: 50))
+                textField3.placeholder = "Country"
+                textField3.title = "Your country name"
+                self.view.addSubview(textField3)
     }
 
 
